@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+#powerhouse {
+  background-color: #FEFAE0;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+h1 p{
+  display: inline;
+  font-weight: 400;
+}
+body{
+  font-family: 'Libre Baskerville',serif;
+  padding: 0;
+  margin: 0;
+  background-color: #FEFAE0;
+  flex-wrap: wrap;
+}
+header{
+  display: flex;
+  background-color: #283618;
+  width: 100vw;
+  height: 10vh;
+  display:flexbox;
+  align-items: center;
+
+}
+
+input::selection {
+  background: #DDA15E; 
+  opacity: 80%;
+}
+.search-span{
+  align-items: center;
+}
+input{
+  background-color: #FEFAE0;
+  justify-content: flex-end;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  border-radius: 2em;
+  caret-color: #DDA15E;
+  color:#283618;
+}
+h1{
+  text-align: left;
+  color: #FEFAE0;
+  padding-left: 1vw;
+  margin: 0;
+}
+.icon{
+  width: 1.5em;
+  height: 1.5em;
+  justify-content: flex-end;
+  align-content: center;
+}
+.cart-icon{
+  width: 1.5em;
+  height: 1.5em;
+  justify-content: flex-end;
+  align-content: center;
+  visibility: hidden;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+
+.meat-potatoes{
+  display: flex;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.meat-potatoes p{
+  font-size: small;
+}
+
+.col1 {
+  left: 0;
+  overflow: auto;
+  top: 0;
+  width: 80vw;
+  height: 80%;
+  padding-bottom: 10vw;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.row-left{
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.shopping-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  align-content: center;
+  font-size: small;
+}
+u{
+  cursor: pointer;
+}
+.col1 p {
+  justify-content: flex-start;
+  padding: 1vw;
+  width: 55%;
+}
+.col1 .bookstore-pic {
+  padding: 1vw;
+  width: 20%;
+  justify-content: flex-end;
+}
+
+button:hover {
+  box-shadow: 0 0 5px #283618;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.genre-img {
+  width: 5vw;
+  min-width: 130px;
+}
+
+.click-img {
+  cursor: pointer;
+}
+
+.title{
+  text-decoration: underline;
+  font-style: italic;
+  font-size: x-large;
+  padding: 1vw;
+}
+b{
+  font-weight: 700;
+}
+
+button{
+  background-color: #DDA15E;
+  outline-color: #283618;
+  font-family: 'Libre Baskerville', serif;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.checkout-button{
+  float: right;
+  margin: 1%;
+}
+
+.donate-button{
+  margin: 1%;
+}
+.row p{
+  width: 70%;
+}
+
+.col2 {
+  float: right;
+  overflow:scroll;
+  width: 20vw;
+  padding: 0;
+  outline: 2px solid #283618;
+  height: 90%;
+}
+
+.col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-title{
+  text-align: center;
+  size: large;
+  padding: 5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.book-title{
+  font-style: italic;
+  font-size: 12px;
+  width: 45%;
+}
+
+.partial-line{
+  width: 80%;
+  align-self: center;
+  border: .5px solid #283618;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.full-line{
+  width: 100%;
+  align-self: center;
+  border: 1px solid #283618;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 5%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: small;
+}
+
+.header-space-between{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contact{
+  text-align: center;
+  font-size: x-small;
+}
+.event-name{
+  width: 79%;
+  font-size: x-small;
+}
+.event-date{
+  width: 18%;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-right: 1%;
+  font-size: x-small;
+}
+
+.vl {
+  border-left: 1px solid #283618;
+  width: 1%;
+}
+
+footer { 
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #283618;
+  width: 30vw;
+  height: 12vh;
+  color:#FEFAE0;
+  font-size: xx-small;
+  justify-content: flex-start;
+  padding-left: 5vh;
+}
+
+.footer-right { 
+  position: absolute;
+  bottom: 0; 
+  left: 90vw; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  background-color: #283618;
+  width: 10vw;
+  height: 12vh;
+  color:#FEFAE0;
+  justify-content: space-between;
+}
+.footer-middle { 
+  position: absolute;
+  bottom: 0; 
+  left: 30vw; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  background-color: #283618;
+  width: 60vw;
+  height: 12vh;
+  color:#FEFAE0;
+  justify-content: space-between;
+}
+
+.mobile-only {
+  visibility: hidden;
+  position:absolute;
+  top: -10;
+}
+
+@media only screen and (max-width: 620px) {
+  .col2 {
+    width: 0vw;
+    height: 0vw;
+    float: none;
+    position:absolute;
+    top: -10000;
+    background-color: aliceblue;
+  }
+  .meat-potatoes{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .col1 {
+    width: 100vw;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-only {
+  visibility: visible;
+  top: 10;
+  position: relative;
+  }
+  .cart-icon{
+    width: 1.5em;
+    height: 1.5em;
+    justify-content: flex-end;
+    align-content: center;
+    visibility: visible;
+  }
+}
