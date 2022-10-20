@@ -299,7 +299,7 @@ footer {
   top: -10;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   .col2 {
     width: 0vw;
     height: 0vw;
